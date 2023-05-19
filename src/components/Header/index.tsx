@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
 
 // asset
@@ -27,22 +27,22 @@ const Header = ({ cartItemCount }: Props) => {
         <nav className="text-gray-600">
           <ul className="flex space-x-4 items-center">
             <li>
-              <a href="#" className="hover:text-gray-800">
+              <a href="/" className="hover:text-gray-800">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800">
+              <a href="/" className="hover:text-gray-800">
                 Shop
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800">
+              <a href="/" className="hover:text-gray-800">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800">
+              <a href="/" className="hover:text-gray-800">
                 Contact
               </a>
             </li>
